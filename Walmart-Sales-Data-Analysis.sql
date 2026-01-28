@@ -1,14 +1,4 @@
-create database walmart;
-
-use walmart; 
-
-drop table tbl_walmart_sales; 
-
-select count(*) from tbl_walmart_sales;
-
-DESCRIBE tbl_walmart_sales;
-
--- Exploratory Data Analysis (EDA) --
+--------------------------------------------------------------------------- Exploratory Data Analysis (EDA) ------------------------------------------------------------------------------------------------------
 ### Generic Question
 -- How many distinct cities are present in the dataset?
 select * from tbl_walmart_sales; 
